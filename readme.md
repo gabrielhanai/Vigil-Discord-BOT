@@ -1,53 +1,109 @@
-Proposta/objetivo: O Vigil BOT tem como objetivo realizar o monitoramento de palavras chaves contidas em mensagens enviadas dentro de um servidor. O usuário digita um comando especificando a palavra chave que ele deseja ser notificado no momento em que ela apareca ao decorrer de qualquer mensagem enviada pelo servidor podendo também filtrar para o monitoramento de canais específicos. O bot então realiza uma vigilância 24hrs por dia até encontrar a palavra chave e a cada ocorrência ele notifica o usuário em seu chat privado, dessa forma exibindo a mensagem completa enviada com a palavra chave destacada em negriton além de identificar o usuário que enviou a mensagem. 
+# Vigil BOT
 
-Segue a lista de comandos do Vigil BOT:
-PALAVRAS-CHAVE:
-!add <palavra> → adiciona uma palavra-chave para monitorar
-!remove <palavra> → remove uma palavra-chave
-!list → mostra todas as suas palavras-chave ativas
-CANAIS:
-!vigil <canal> → adiciona um canal para monitorar
-!ignore <canal> → para de monitorar um canal
-!chan → mostra quais canais você está monitorando
-CONFIGURAÇÕES:
-!pause → pausa as notificações temporariamente
-!return → retoma as notificações
-!status → mostra um resumo completo das suas configurações
-INFORMAÇÕES:
-!help → mostra todos os comandos disponíveis
+## 📋 Sobre o Projeto
 
-     Utilizei a ferramenta discord developer portal disponibilizada pelo discord para configurar algumas permissões essenciais para o Vigil BOT, concedendo-lhe apenas as permissões necessárias para o seu funcionamento e o atendimento de sua proposta de monitoramento de palavras chaves
+O Vigil BOT realiza o monitoramento de palavras-chave contidas em mensagens enviadas dentro de um servidor Discord. O usuário especifica as palavras-chave que deseja monitorar e pode filtrar canais específicos. A cada ocorrência, o bot notifica o usuário em seu chat privado exibindo a mensagem completa com a palavra-chave destacada em negrito e identificando quem a enviou.
+
+---
+
+## 🛠️ Comandos
+
+### Palavras-chave
+| Comando | Descrição |
+|---|---|
+| `!add <palavra>` | Adiciona uma palavra-chave para monitorar |
+| `!remove <palavra>` | Remove uma palavra-chave |
+| `!list` | Mostra todas as suas palavras-chave ativas |
+
+### Canais
+| Comando | Descrição |
+|---|---|
+| `!vigil <canal>` | Adiciona um canal para monitorar |
+| `!ignore <canal>` | Para de monitorar um canal |
+| `!chan` | Mostra quais canais você está monitorando |
+
+### Configurações
+| Comando | Descrição |
+|---|---|
+| `!pause` | Pausa as notificações temporariamente |
+| `!return` | Retoma as notificações |
+| `!status` | Mostra um resumo completo das suas configurações |
+| `!commands` | Mostra todos os comandos disponíveis |
+
+---
+
+## 🔒 Permissões
+
+O Vigil BOT foi configurado via Discord Developer Portal com apenas as permissões necessárias para seu funcionamento
+
+---
 
 ## 🧪 Servidor de Testes
 
-Entre no nosso servidor de testes do Discord para experimentar os comandos do Vigil BOT livremente. Todos são bem-vindos para entrar e adicionar o Vigil BOT aos seus próprios servidores!
+Entre no servidor de testes para experimentar o Vigil BOT livremente. Todos são bem-vindos!
 
 [Entrar no Servidor de Testes](https://discord.gg/98ajShAS)
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---
 
-Proposal/objective: Vigil BOT aims to monitor keywords contained in messages sent within a server. The user types a command specifying the keyword they wish to be notified of the moment it appears throughout any message sent in the server, with the option to filter for monitoring specific channels. The bot then performs 24-hour surveillance until it finds the keyword, and upon each occurrence, it notifies the user in their private chat, displaying the full message sent with the keyword highlighted in bold, while also identifying the user who sent the message.
+## 🚀 Tecnologias
 
-Follows the list of commands for Vigil BOT:
-KEYWORDS:
-!add <word> → adds a keyword to monitor
-!remove <word> → removes a keyword
-!list → shows all your active keywords
-CHANNELS:
-!vigil <channel> → adds a channel to monitor
-!ignore <channel> → stops monitoring a channel
-!chan → shows which channels you are monitoring
-SETTINGS:
-!pause → pauses notifications temporarily
-!return → resumes notifications
-!status → shows a complete summary of your settings
-INFORMATION:
-!help → shows all available commands
+- Python
+- Discord.py
+- SQLite
 
-     I used the discord developer portal tool provided by discord to configure some essential permissions for Vigil BOT, granting it only the permissions necessary for its operation and the fulfillment of its keyword monitoring proposal.
+---
+
+# Vigil BOT (English)
+
+## 📋 About
+
+Vigil BOT monitors keywords in messages sent within a Discord server. Users specify keywords to watch for and can filter specific channels. Upon each occurrence, the bot sends a private notification displaying the full message with the keyword highlighted in bold and identifying the sender.
+
+---
+
+## 🛠️ Commands
+
+### Keywords
+| Command | Description |
+|---|---|
+| `!add <word>` | Adds a keyword to monitor |
+| `!remove <word>` | Removes a keyword |
+| `!list` | Shows all your active keywords |
+
+### Channels
+| Command | Description |
+|---|---|
+| `!vigil <channel>` | Adds a channel to monitor |
+| `!ignore <channel>` | Stops monitoring a channel |
+| `!chan` | Shows which channels you are monitoring |
+
+### Settings
+| Command | Description |
+|---|---|
+| `!pause` | Pauses notifications temporarily |
+| `!return` | Resumes notifications |
+| `!status` | Shows a complete summary of your settings |
+| `!commands` | Shows all available commands |
+
+---
+
+## 🔒 Permissions
+
+Vigil BOT was configured via the Discord Developer Portal with only the necessary permissions for its operation
+
+---
 
 ## 🧪 Test Server
 
-Join our Discord test server to try Vigil BOT commands freely. Everyone is welcome to join and add Vigil BOT to their own servers!
+Join the test server to try Vigil BOT freely. Everyone is welcome!
 
 [Join the Test Server](https://discord.gg/98ajShAS)
+
+---
+
+## 🚀 Tech Stack
+
+- Python
+- Discord.py
+- SQLite
