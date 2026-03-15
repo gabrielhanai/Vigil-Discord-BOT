@@ -18,6 +18,12 @@ INFORMAÇÕES:
 
      Utilizei a ferramenta discord developer portal disponibilizada pelo discord para configurar algumas permissões essenciais para o Vigil BOT, concedendo-lhe apenas as permissões necessárias para o seu funcionamento e o atendimento de sua proposta de monitoramento de palavras chaves
 
+## 🧪 Servidor de Testes
+
+Entre no nosso servidor de testes do Discord para experimentar os comandos do Vigil BOT livremente. Todos são bem-vindos para entrar e adicionar o Vigil BOT aos seus próprios servidores!
+
+[Entrar no Servidor de Testes](https://discord.gg/98ajShAS)
+
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Proposal/objective: Vigil BOT aims to monitor keywords contained in messages sent within a server. The user types a command specifying the keyword they wish to be notified of the moment it appears throughout any message sent in the server, with the option to filter for monitoring specific channels. The bot then performs 24-hour surveillance until it finds the keyword, and upon each occurrence, it notifies the user in their private chat, displaying the full message sent with the keyword highlighted in bold, while also identifying the user who sent the message.
@@ -39,3 +45,9 @@ INFORMATION:
 !help → shows all available commands
 
      I used the discord developer portal tool provided by discord to configure some essential permissions for Vigil BOT, granting it only the permissions necessary for its operation and the fulfillment of its keyword monitoring proposal.
+
+## 🧪 Test Server
+
+Join our Discord test server to try Vigil BOT commands freely. Everyone is welcome to join and add Vigil BOT to their own servers!
+
+[Join the Test Server](https://discord.gg/98ajShAS)
