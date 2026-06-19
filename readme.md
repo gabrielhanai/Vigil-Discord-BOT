@@ -1,12 +1,12 @@
 # Vigil BOT
 
-## 📋 Sobre o Projeto
+## Sobre o Projeto
 
 O Vigil BOT realiza o monitoramento de palavras-chave contidas em mensagens enviadas dentro de um servidor Discord. O usuário especifica as palavras-chave que deseja monitorar e pode filtrar canais específicos. A cada ocorrência, o bot notifica o usuário em seu chat privado exibindo a mensagem completa com a palavra-chave destacada em negrito e identificando quem a enviou.
 
 ---
 
-## 🛠️ Comandos
+## Comandos
 
 ### Palavras-chave
 | Comando | Descrição |
@@ -32,13 +32,13 @@ O Vigil BOT realiza o monitoramento de palavras-chave contidas em mensagens envi
 
 ---
 
-## 🔒 Permissões
+## Permissões
 
 O Vigil BOT foi configurado via Discord Developer Portal com apenas as permissões necessárias para seu funcionamento
 
 ---
 
-## 🧪 Servidor de Testes
+## Servidor de Testes
 
 Entre no servidor de testes para experimentar o Vigil BOT livremente. Todos são bem-vindos!
 
@@ -46,7 +46,7 @@ Entre no servidor de testes para experimentar o Vigil BOT livremente. Todos são
 
 ---
 
-## 🚀 Tecnologias
+## Tecnologias
 
 - Python
 - Discord.py
@@ -56,13 +56,13 @@ Entre no servidor de testes para experimentar o Vigil BOT livremente. Todos são
 
 # Vigil BOT (English)
 
-## 📋 About
+## About
 
 Vigil BOT monitors keywords in messages sent within a Discord server. Users specify keywords to watch for and can filter specific channels. Upon each occurrence, the bot sends a private notification displaying the full message with the keyword highlighted in bold and identifying the sender.
 
 ---
 
-## 🛠️ Commands
+## Commands
 
 ### Keywords
 | Command | Description |
@@ -88,13 +88,13 @@ Vigil BOT monitors keywords in messages sent within a Discord server. Users spec
 
 ---
 
-## 🔒 Permissions
+## Permissions
 
 Vigil BOT was configured via the Discord Developer Portal with only the necessary permissions for its operation
 
 ---
 
-## 🧪 Test Server
+## Test Server
 
 Join the test server to try Vigil BOT freely. Everyone is welcome!
 
@@ -102,7 +102,7 @@ Join the test server to try Vigil BOT freely. Everyone is welcome!
 
 ---
 
-## 🚀 Tech Stack
+## Tech Stack
 
 - Python
 - Discord.py
